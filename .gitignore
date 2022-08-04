@@ -1,0 +1,39 @@
+.DS_Store
+node_modules
+dist
+dist-ssr
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.zip
+
+# 忽略packages下相关文件
+packages/vut-lucky/ui/vue-vut-lucky.ts
+packages/vut-lucky/ui/theme/theme.scss
+packages/vut-lucky/ui/theme/darkTheme.css
+packages/vut-lucky/docs/.vitepress/config/sidebar.ts
+packages/vut-lucky/docs/.vitepress/config/enSidebar.ts
+packages/vut-lucky/docs/.vitepress/config.ts.js
+packages/vut-lucky/build
+
+**CHANGELOG.md
+# test
+packages/vut-lucky/coverage
+packages/vut-lucky/ui/**/__snapshots__
+.pnpm-debug.log
